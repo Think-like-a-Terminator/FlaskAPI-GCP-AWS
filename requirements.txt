@@ -1,0 +1,5 @@
+Flask==2.3.3
+Flask-RESTful==0.3.9
+Flask-Cors==3.0.10
+google-cloud-datastore==2.15.1
+boto3==1.33.13
