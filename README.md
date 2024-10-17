@@ -82,6 +82,8 @@ Configure your app.yaml parameters to suit your needs, this file specifies the c
 
 Add in the path to your GCP Service Account Credentials JSON file and AWS SES credentials file inside main.py.
 
+(Optional) If you want to leverage creating GCP buckets from your frontend, enter your frontend URL inside cors_configuration under the class CreateGcpBucket(Resource), replace "INSERT YOUR FRONTEND URL" with your frontend URL.
+
 Run the command in Cloud Shell where the app.yaml and .py files are located in:
 
 gcloud app deploy
